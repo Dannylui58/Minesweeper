@@ -61,7 +61,7 @@ public void displayLosingMessage()
 {
     for(int i = 0; i < NUM_ROWS; i++){
       for(int j = 0; j < NUM_COLS; j++){
-        buttons[i][j].setLabel("L");
+        buttons[i][j].setLabel("");
         if(mines.contains(buttons[i][j]) && buttons[i][j].clicked == false)
           buttons[i][j].mousePressed();
           }
